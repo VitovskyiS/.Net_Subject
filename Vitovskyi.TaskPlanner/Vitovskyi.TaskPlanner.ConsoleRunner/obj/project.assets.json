@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Vitovskyi.TaskPlanner.Domain.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Vitovskyi.TaskPlanner.Domain.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vitovskyi.TaskPlanner.Domain.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vitovskyi.TaskPlanner.Domain.Logic.dll": {}
+        }
+      },
+      "Vitovskyi.TaskPlanner.Domain.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Vitovskyi.TaskPlanner.Domain.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vitovskyi.TaskPlanner.Domain.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Vitovskyi.TaskPlanner.Domain.Logic/1.0.0": {
+      "type": "project",
+      "path": "../Vitovskyi.TaskPlanner.Domain.Logic/Vitovskyi.TaskPlanner.Domain.Logic.csproj",
+      "msbuildProject": "../Vitovskyi.TaskPlanner.Domain.Logic/Vitovskyi.TaskPlanner.Domain.Logic.csproj"
+    },
+    "Vitovskyi.TaskPlanner.Domain.Models/1.0.0": {
+      "type": "project",
+      "path": "../Vitovskyi.TaskPlanner.Domain.Models/Vitovskyi.TaskPlanner.Domain.Models.csproj",
+      "msbuildProject": "../Vitovskyi.TaskPlanner.Domain.Models/Vitovskyi.TaskPlanner.Domain.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Vitovskyi.TaskPlanner.Domain.Logic >= 1.0.0",
+      "Vitovskyi.TaskPlanner.Domain.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Сергій\\.nuget\\packages\\": {},
@@ -39,7 +77,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Сергій\\Documents\\.Net_Subject\\Vitovskyi.TaskPlanner\\Vitovskyi.TaskPlanner.Domain.Logic\\Vitovskyi.TaskPlanner.Domain.Logic.csproj": {
+              "projectPath": "C:\\Users\\Сергій\\Documents\\.Net_Subject\\Vitovskyi.TaskPlanner\\Vitovskyi.TaskPlanner.Domain.Logic\\Vitovskyi.TaskPlanner.Domain.Logic.csproj"
+            },
+            "C:\\Users\\Сергій\\Documents\\.Net_Subject\\Vitovskyi.TaskPlanner\\Vitovskyi.TaskPlanner.Domain.Models\\Vitovskyi.TaskPlanner.Domain.Models.csproj": {
+              "projectPath": "C:\\Users\\Сергій\\Documents\\.Net_Subject\\Vitovskyi.TaskPlanner\\Vitovskyi.TaskPlanner.Domain.Models\\Vitovskyi.TaskPlanner.Domain.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

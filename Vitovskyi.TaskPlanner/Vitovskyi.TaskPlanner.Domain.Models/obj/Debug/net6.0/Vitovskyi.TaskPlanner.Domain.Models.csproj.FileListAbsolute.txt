@@ -1,0 +1,12 @@
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Models\bin\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Models.deps.json
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Models\bin\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Models.dll
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Models\bin\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Models.pdb
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Models\obj\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Models.csproj.AssemblyReference.cache
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Models\obj\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Models\obj\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Models.AssemblyInfoInputs.cache
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Models\obj\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Models.AssemblyInfo.cs
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Models\obj\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Models.csproj.CoreCompileInputs.cache
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Models\obj\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Models.dll
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Models\obj\Debug\net6.0\refint\Vitovskyi.TaskPlanner.Domain.Models.dll
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Models\obj\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Models.pdb
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Models\obj\Debug\net6.0\ref\Vitovskyi.TaskPlanner.Domain.Models.dll

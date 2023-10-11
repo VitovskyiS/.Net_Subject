@@ -7,14 +7,41 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "Vitovskyi.TaskPlanner.ConsoleRunner/1.0.0": {
+        "dependencies": {
+          "Vitovskyi.TaskPlanner.Domain.Logic": "1.0.0",
+          "Vitovskyi.TaskPlanner.Domain.Models": "1.0.0"
+        },
         "runtime": {
           "Vitovskyi.TaskPlanner.ConsoleRunner.dll": {}
+        }
+      },
+      "Vitovskyi.TaskPlanner.Domain.Logic/1.0.0": {
+        "dependencies": {
+          "Vitovskyi.TaskPlanner.Domain.Models": "1.0.0"
+        },
+        "runtime": {
+          "Vitovskyi.TaskPlanner.Domain.Logic.dll": {}
+        }
+      },
+      "Vitovskyi.TaskPlanner.Domain.Models/1.0.0": {
+        "runtime": {
+          "Vitovskyi.TaskPlanner.Domain.Models.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Vitovskyi.TaskPlanner.ConsoleRunner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vitovskyi.TaskPlanner.Domain.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vitovskyi.TaskPlanner.Domain.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

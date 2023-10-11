@@ -1,0 +1,15 @@
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Logic\bin\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Logic.deps.json
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Logic\bin\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Logic.dll
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Logic\bin\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Logic.pdb
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Logic\bin\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Models.dll
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Logic\bin\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Models.pdb
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Logic\obj\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Logic.csproj.AssemblyReference.cache
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Logic\obj\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Logic\obj\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Logic.AssemblyInfoInputs.cache
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Logic\obj\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Logic.AssemblyInfo.cs
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Logic\obj\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Logic.csproj.CoreCompileInputs.cache
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Logic\obj\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Logic.csproj.CopyComplete
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Logic\obj\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Logic.dll
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Logic\obj\Debug\net6.0\refint\Vitovskyi.TaskPlanner.Domain.Logic.dll
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Logic\obj\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Logic.pdb
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Logic\obj\Debug\net6.0\ref\Vitovskyi.TaskPlanner.Domain.Logic.dll

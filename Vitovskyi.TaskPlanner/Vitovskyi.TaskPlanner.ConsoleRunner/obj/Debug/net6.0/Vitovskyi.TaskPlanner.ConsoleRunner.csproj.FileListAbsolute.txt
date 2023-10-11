@@ -13,3 +13,8 @@ C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.Tas
 C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.ConsoleRunner\obj\Debug\net6.0\Vitovskyi.TaskPlanner.ConsoleRunner.pdb
 C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.ConsoleRunner\obj\Debug\net6.0\Vitovskyi.TaskPlanner.ConsoleRunner.genruntimeconfig.cache
 C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.ConsoleRunner\obj\Debug\net6.0\ref\Vitovskyi.TaskPlanner.ConsoleRunner.dll
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.ConsoleRunner\bin\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Logic.dll
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.ConsoleRunner\bin\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Models.dll
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.ConsoleRunner\bin\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Logic.pdb
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.ConsoleRunner\bin\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Models.pdb
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.ConsoleRunner\obj\Debug\net6.0\Vitovskyi.TaskPlanner.ConsoleRunner.csproj.CopyComplete

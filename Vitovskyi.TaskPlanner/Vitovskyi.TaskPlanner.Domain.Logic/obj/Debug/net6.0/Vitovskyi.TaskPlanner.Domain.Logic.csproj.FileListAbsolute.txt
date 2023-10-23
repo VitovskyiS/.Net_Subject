@@ -13,3 +13,5 @@ C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.Tas
 C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Logic\obj\Debug\net6.0\refint\Vitovskyi.TaskPlanner.Domain.Logic.dll
 C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Logic\obj\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Logic.pdb
 C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Logic\obj\Debug\net6.0\ref\Vitovskyi.TaskPlanner.Domain.Logic.dll
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Logic\bin\Debug\net6.0\Vitovskyi.TaskPlanner.DataAccess.Abstractions.dll
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.Domain.Logic\bin\Debug\net6.0\Vitovskyi.TaskPlanner.DataAccess.Abstractions.pdb

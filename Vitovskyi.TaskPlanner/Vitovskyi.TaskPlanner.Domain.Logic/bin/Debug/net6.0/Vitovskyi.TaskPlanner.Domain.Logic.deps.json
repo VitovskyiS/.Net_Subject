@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v6.0": {
       "Vitovskyi.TaskPlanner.Domain.Logic/1.0.0": {
         "dependencies": {
+          "Vitovskyi.TaskPlanner.DataAccess.Abstractions": "1.0.0",
           "Vitovskyi.TaskPlanner.Domain.Models": "1.0.0"
         },
         "runtime": {
           "Vitovskyi.TaskPlanner.Domain.Logic.dll": {}
+        }
+      },
+      "Vitovskyi.TaskPlanner.DataAccess.Abstractions/1.0.0": {
+        "dependencies": {
+          "Vitovskyi.TaskPlanner.Domain.Models": "1.0.0"
+        },
+        "runtime": {
+          "Vitovskyi.TaskPlanner.DataAccess.Abstractions.dll": {}
         }
       },
       "Vitovskyi.TaskPlanner.Domain.Models/1.0.0": {
@@ -23,6 +32,11 @@
   },
   "libraries": {
     "Vitovskyi.TaskPlanner.Domain.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vitovskyi.TaskPlanner.DataAccess.Abstractions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

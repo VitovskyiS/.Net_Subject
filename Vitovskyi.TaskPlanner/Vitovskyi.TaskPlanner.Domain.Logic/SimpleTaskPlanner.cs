@@ -1,36 +1,33 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
+using Vitovskyi.TaskPlanner.DataAccess.Abstractions;
 using Vitovskyi.TaskPlanner.Domain.Models;
 
 namespace Vitovskyi.TaskPlanner.Domain.Logic
 {
     public class SimpleTaskPlanner
     {
-        public WorkItem[] CreatePlan(WorkItem[] items)
+        private readonly IWorkItemsRepository _workItemsRepository;
+
+        public SimpleTaskPlanner(IWorkItemsRepository workItemsRepository)
         {
-            var itemsAsList = items.ToList();
-            itemsAsList.Sort(CompareWorkItems);
-            return itemsAsList.ToArray();
+            _workItemsRepository = workItemsRepository;
         }
 
-        private static int CompareWorkItems(WorkItem firstItem, WorkItem secondItem)
+        public WorkItem[] CreatePlan()
         {
-            int priorityComparison = secondItem.Priority.CompareTo(firstItem.Priority);
-            if (priorityComparison != 0)
-            {
-                return priorityComparison;
-            }
+            WorkItem[] workItems = _workItemsRepository.GetAll();
 
-            int dueDateComparison = firstItem.DueDate.CompareTo(secondItem.DueDate);
-            if (dueDateComparison != 0)
-            {
-                return dueDateComparison;
-            }
-
-            return string.Compare(firstItem.Title, secondItem.Title, StringComparison.Ordinal);
+            WorkItem[] uncompletedItems = workItems.Where(item => !item.IsCompleted).OrderBy(item => item.DueDate).ToArray();
+            return uncompletedItems;
         }
     }
 }
+
+
+
+
+
+
+
+
+

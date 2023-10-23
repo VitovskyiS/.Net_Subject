@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Vitovskyi.TaskPlanner.DataAccess.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Vitovskyi.TaskPlanner.Domain.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vitovskyi.TaskPlanner.DataAccess.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vitovskyi.TaskPlanner.DataAccess.Abstractions.dll": {}
+        }
+      },
       "Vitovskyi.TaskPlanner.Domain.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -15,6 +28,11 @@
     }
   },
   "libraries": {
+    "Vitovskyi.TaskPlanner.DataAccess.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../Vitovskyi.TaskPlanner.DataAccess.Abstractions/Vitovskyi.TaskPlanner.DataAccess.Abstractions.csproj",
+      "msbuildProject": "../Vitovskyi.TaskPlanner.DataAccess.Abstractions/Vitovskyi.TaskPlanner.DataAccess.Abstractions.csproj"
+    },
     "Vitovskyi.TaskPlanner.Domain.Models/1.0.0": {
       "type": "project",
       "path": "../Vitovskyi.TaskPlanner.Domain.Models/Vitovskyi.TaskPlanner.Domain.Models.csproj",
@@ -23,6 +41,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Vitovskyi.TaskPlanner.DataAccess.Abstractions >= 1.0.0",
       "Vitovskyi.TaskPlanner.Domain.Models >= 1.0.0"
     ]
   },
@@ -59,6 +78,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Сергій\\Documents\\.Net_Subject\\Vitovskyi.TaskPlanner\\Vitovskyi.TaskPlanner.DataAccess.Abstractions\\Vitovskyi.TaskPlanner.DataAccess.Abstractions.csproj": {
+              "projectPath": "C:\\Users\\Сергій\\Documents\\.Net_Subject\\Vitovskyi.TaskPlanner\\Vitovskyi.TaskPlanner.DataAccess.Abstractions\\Vitovskyi.TaskPlanner.DataAccess.Abstractions.csproj"
+            },
             "C:\\Users\\Сергій\\Documents\\.Net_Subject\\Vitovskyi.TaskPlanner\\Vitovskyi.TaskPlanner.Domain.Models\\Vitovskyi.TaskPlanner.Domain.Models.csproj": {
               "projectPath": "C:\\Users\\Сергій\\Documents\\.Net_Subject\\Vitovskyi.TaskPlanner\\Vitovskyi.TaskPlanner.Domain.Models\\Vitovskyi.TaskPlanner.Domain.Models.csproj"
             }

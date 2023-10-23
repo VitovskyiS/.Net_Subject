@@ -1,0 +1,15 @@
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.DataAccess.Abstractions\bin\Debug\net6.0\Vitovskyi.TaskPlanner.DataAccess.Abstractions.deps.json
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.DataAccess.Abstractions\bin\Debug\net6.0\Vitovskyi.TaskPlanner.DataAccess.Abstractions.dll
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.DataAccess.Abstractions\bin\Debug\net6.0\Vitovskyi.TaskPlanner.DataAccess.Abstractions.pdb
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.DataAccess.Abstractions\bin\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Models.dll
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.DataAccess.Abstractions\bin\Debug\net6.0\Vitovskyi.TaskPlanner.Domain.Models.pdb
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.DataAccess.Abstractions\obj\Debug\net6.0\Vitovskyi.TaskPlanner.DataAccess.Abstractions.csproj.AssemblyReference.cache
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.DataAccess.Abstractions\obj\Debug\net6.0\Vitovskyi.TaskPlanner.DataAccess.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.DataAccess.Abstractions\obj\Debug\net6.0\Vitovskyi.TaskPlanner.DataAccess.Abstractions.AssemblyInfoInputs.cache
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.DataAccess.Abstractions\obj\Debug\net6.0\Vitovskyi.TaskPlanner.DataAccess.Abstractions.AssemblyInfo.cs
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.DataAccess.Abstractions\obj\Debug\net6.0\Vitovskyi.TaskPlanner.DataAccess.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.DataAccess.Abstractions\obj\Debug\net6.0\Vitovskyi.TaskPlanner.DataAccess.Abstractions.csproj.CopyComplete
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.DataAccess.Abstractions\obj\Debug\net6.0\Vitovskyi.TaskPlanner.DataAccess.Abstractions.dll
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.DataAccess.Abstractions\obj\Debug\net6.0\refint\Vitovskyi.TaskPlanner.DataAccess.Abstractions.dll
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.DataAccess.Abstractions\obj\Debug\net6.0\Vitovskyi.TaskPlanner.DataAccess.Abstractions.pdb
+C:\Users\Сергій\Documents\.Net_Subject\Vitovskyi.TaskPlanner\Vitovskyi.TaskPlanner.DataAccess.Abstractions\obj\Debug\net6.0\ref\Vitovskyi.TaskPlanner.DataAccess.Abstractions.dll

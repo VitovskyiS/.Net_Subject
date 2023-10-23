@@ -2,6 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
+using Vitovskyi.TaskPlanner.DataAccess;
+using Vitovskyi.TaskPlanner.DataAccess.Abstractions;
 using Vitovskyi.TaskPlanner.Domain.Logic;
 using Vitovskyi.TaskPlanner.Domain.Models;
 using Vitovskyi.TaskPlanner.Domain.Models.Enums;
@@ -10,37 +12,95 @@ internal static class Program
 {
     public static void Main(string[] args)
     {
-        List<WorkItem> workItems = new List<WorkItem>();
+        IWorkItemsRepository workItemRepository = new FileWorkItemsRepository();
+        SimpleTaskPlanner taskPlanner = new SimpleTaskPlanner(workItemRepository); // Передача репозиторію
+
         while (true)
         {
-           
-            WorkItem workItem = CreateWorkItemFromUserInput();
+            Console.WriteLine("Choose an operation:");
+            Console.WriteLine("[A]dd work item");
+            Console.WriteLine("[B]uild a plan");
+            Console.WriteLine("[M]ark work item as completed");
+            Console.WriteLine("[R]emove a work item");
+            Console.WriteLine("[Q]uit the app");
 
-          
-            workItems.Add(workItem);
+            ConsoleKeyInfo key = Console.ReadKey();
+            Console.WriteLine();
 
-            Console.Write("Do you want to add another task? (yes/no): ");
-            string response = Console.ReadLine().Trim();
+            switch (key.Key)
+            {
+                case ConsoleKey.A:
+                    var workItem = CreateWorkItemFromUserInput();
+                    Guid newId = workItemRepository.Add(workItem);
+                    Console.WriteLine($"Work item added with ID: {newId}");
+                    break;
 
-            if (response.Equals("no", StringComparison.OrdinalIgnoreCase))
-                break;
-        }
+                case ConsoleKey.B:
+                    // Build a plan
+                    WorkItem[] sortedItems = taskPlanner.CreatePlan(); // Виклик методу без аргументів
+                    Console.WriteLine("Plan built:");
+                    foreach (var item in sortedItems)
+                    {
+                        Console.WriteLine(item);
+                    }
+                    break;
 
-       
-        SimpleTaskPlanner taskPlanner = new SimpleTaskPlanner();
-        WorkItem[] sortedItems = taskPlanner.CreatePlan(workItems.ToArray());
+                case ConsoleKey.M:
+                    // Mark work item as completed
+                    Console.Write("Enter the ID of the work item to mark as completed: ");
+                    if (Guid.TryParse(Console.ReadLine(), out Guid id))
+                    {
+                        var itemToMark = workItemRepository.Get(id);
+                        if (itemToMark != null)
+                        {
+                            itemToMark.IsCompleted = true;
+                            workItemRepository.Update(itemToMark); // Update the item
+                            Console.WriteLine("Work item marked as completed.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Work item not found.");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid ID format.");
+                    }
+                    break;
 
-        
-        Console.WriteLine("\nSorted Tasks:");
-        foreach (WorkItem item in sortedItems)
-        {
-            Console.WriteLine(item);
+                case ConsoleKey.R:
+                    // Remove a work item
+                    Console.Write("Enter the ID of the work item to remove: ");
+                    if (Guid.TryParse(Console.ReadLine(), out Guid idToRemove))
+                    {
+                        if (workItemRepository.Remove(idToRemove))
+                        {
+                            Console.WriteLine("Work item removed.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Work item not found.");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid ID format.");
+                    }
+                    break;
+
+                case ConsoleKey.Q:
+                    // Quit the app
+                    return;
+
+                default:
+                    Console.WriteLine("Invalid operation. Please try again.");
+                    break;
+            }
         }
     }
 
     private static WorkItem CreateWorkItemFromUserInput()
     {
-
         Console.Write("Title: ");
         string title = Console.ReadLine();
 
@@ -68,23 +128,35 @@ internal static class Program
             complexity = Complexity.None;
         }
 
+        // Note: You cannot set IsCompleted directly because it's read-only
         Console.Write("Is Completed (true/false): ");
-        if (bool.TryParse(Console.ReadLine(), out bool isCompleted) == false)
+        if (bool.TryParse(Console.ReadLine(), out bool isCompleted))
+        {
+            return new WorkItem(
+                DateTime.Now,   // creationDate
+                dueDate,         // dueDate
+                priority,        // priority
+                complexity,      // complexity
+                title,           // title
+                description,     // description
+                isCompleted      // isCompleted
+            );
+        }
+        else
         {
             Console.WriteLine("Invalid boolean value. Using 'false'.");
-            isCompleted = false;
+            return new WorkItem(
+                DateTime.Now,
+                dueDate,
+                priority,
+                complexity,
+                title,
+                description,
+                false
+            );
         }
-
-      
-        return new WorkItem
-        {
-            Title = title,
-            Description = description,
-            DueDate = dueDate,
-            Priority = priority,
-            Complexity = complexity,
-            IsCompleted = isCompleted
-        };
     }
 }
+
+
 

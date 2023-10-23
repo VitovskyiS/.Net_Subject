@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Vitovskyi.TaskPlanner.DataAccess\Vitovskyi.TaskPlanner.DataAccess.csproj" />
     <ProjectReference Include="..\Vitovskyi.TaskPlanner.Domain.Logic\Vitovskyi.TaskPlanner.Domain.Logic.csproj" />
     <ProjectReference Include="..\Vitovskyi.TaskPlanner.Domain.Models\Vitovskyi.TaskPlanner.Domain.Models.csproj" />
   </ItemGroup>
